@@ -20,4 +20,4 @@ abstract class BasePage {
     public void waitAndClick(By selector){
         wait.until(ExpectedConditions.elementToBeClickable(selector)).click();
     }
-}
+}n
